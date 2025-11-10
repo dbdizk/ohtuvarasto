@@ -12,7 +12,7 @@ class Varasto:
 
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo
-
+#BREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAK
     def lisaa_varastoon(self, maara):
         if maara < 0:
             return
